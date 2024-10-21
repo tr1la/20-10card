@@ -40,7 +40,7 @@ body.fade{
   top: -245px; /* Adjust this value to control the distance from the flower */
   left: 50%;
   transform: translateX(-50%);
-  font-size: 85px;
+  font-size: 50px;
   color: #b40933; /* Or any color you prefer */
   white-space: nowrap;
   font-family: 'SVN-Alluring', sans-serif;
@@ -92,7 +92,7 @@ h1 {
   text-align: center;
   color:#fb6f92;
   font-family: monospace;
-  font-size: 38px;
+  font-size: 32px;
 }
 input {
   position: absolute;
