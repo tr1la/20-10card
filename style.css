@@ -164,6 +164,7 @@ img {
 .flowers {
   position: relative;
   transform: scale(0.8);
+  bottom: 5%;
 }
 .flower {
   position: absolute;
