@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20-10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fade">
+    <script>
+      window.setTimeout(function() {
+        document.body.classList.remove('fade');
+      }, 30);
+    </script>
+      <div class="night"></div>
+      <h1>Nhập tên người nhận</h1>
+     <form id="nameForm">
+      <input type="text" id="nameInput" placeholder="e.g: Tô Phú Cường">
+      <button type="button" id="checkButton">Kiểm tra</button>
+      <p class="error" id="errorMessage"></p>
+      <p class="valid" id="validMessage"></p>
+      <img src="iconcuoi.png" id="cuoi"></img>
+      <img src="pucca.jpg" id="hint"></img>
+    <script src="app.js"></script>
+</body>
+</html>
